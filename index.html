@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: darkcyan;
+        }
+        h1:hover{
+            color: rgba(4, 45, 43, 0.662);
+            padding: 50px;
+            background-color: lightskyblue;
+            width: 200px;
+            margin-top: 50px;
+
+        }
+        .second:focus{
+            color: brown;
+        }
+        a:visited{
+            color: purple;
+        }
+
+        li:first-child{
+            background-color: brown;
+            padding: 5px 10px;
+            width: 50px;
+            height: 30px;
+        }
+        li:nth-child(2n+1){
+            background-color: brown;
+            padding: 5px 10px;
+            width: 50px;
+            height: 30px;
+        }
+        li:nth-child(2n){
+            background-color: goldenrod;
+            padding: 5px 10px;
+            width: 50px;
+            height: 30px;
+        }
+        h3::after{
+            content: ' bye-bye';
+            color: blueviolet;
+        }
+        h3::before{
+            content: 'Hello-Hello ';
+            color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        This is normal
+    
+    </h1>
+
+    <input type="text" class="firt">
+    <input type="text" class="second">
+    <input type="text" class="third">
+
+   <div>
+    <a href="https://www.google.com/">Google e jao</a>
+    <a href="https://amajon.com/">Amajon e ghumao</a>
+
+    <a href="https://www.apple.com/iphone/">Apple khao</a>
+   </div>
+
+   <div>
+    <ul>
+        <li>Amm</li>
+        <li>Jam</li>
+        <li>Kathal</li>
+        <li>Lichu</li>
+        <li>Komola</li>
+        <li>Apple</li>
+    </ul>
+   </div>
+
+   <div>
+    <h3>How are you?</h3>
+    <h3>How are you?</h3>
+    <h3>How are you?</h3>
+    <h3>How are you?</h3>
+    
+   </div>
+</body>
+</html>

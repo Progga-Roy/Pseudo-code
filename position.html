@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+
+<style>
+
+    .swimming{
+        position: relative;
+    }
+    .swimming div{
+        border: 3px dashed darksalmon;
+        width: 300px;
+       
+    }
+    
+    .dummy{
+        width: 200px;
+        height: 150px;
+        background-color:lightslategray;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    #ring{
+        /* position:sticky; */
+        position:fixed;
+        left: 30px;
+        top: 0px;
+        z-index: 5;
+    }
+    #water{
+        position: relative;
+        z-index: 2;
+        top: 75px;
+    }
+</style>
+<body>
+    <section>
+        <h1>This is my header</h1>
+        <h1>I am learning position</h1>
+        <h1>My position is higher</h1>
+    </section>
+
+    <section class="swimming ">
+        <div><img src="boy.jpg" alt=""></div>
+        <div id="ring"><img src="ring.jpg" alt=""></div>
+        <div id="water"><img src="water.jpg" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+</body>
+
+</html>
